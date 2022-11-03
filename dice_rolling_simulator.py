@@ -22,7 +22,7 @@ def dice_roll():
         while roll2 == 'Y':
             print("You rolled a", no_of_sides)
             break
-            print(roll2)
+            print(roll2) 
         print("thanks")
     elif roll_gen == 'N':
         print("Thanks for playing")
