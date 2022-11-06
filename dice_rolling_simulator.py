@@ -23,8 +23,10 @@ def dice_roll():
             print("You rolled a", no_of_sides)
             return dice_roll() #loop through and go back to roll_gen
         print("Thanks for playing")
-    else:
+    elif roll_gen == 'N':
         print("Thanks for playing")
+    else:
+        print("Invalid answer")
 
 
 dice_roll()
